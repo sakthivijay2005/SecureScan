@@ -1,0 +1,11 @@
+# SecureScan - Automated Web Security Scanner
+# Requires Python 3.10 or newer.
+#
+# The scanner needs ONE third-party package. Everything else it imports (json, csv, re, ipaddress,
+# dataclasses, http.server, threading, pathlib, tempfile, textwrap, ...) is part of the Python
+# standard library. Developed and executed with requests 2.34.2.
+requests>=2.31.0,<3.0
+
+# To open and run the .ipynb file you also need Jupyter. It only displays the notebook; the scanner
+# code does not import it, so it is intentionally not listed as a requirement. Install it with:
+#     pip install notebook
